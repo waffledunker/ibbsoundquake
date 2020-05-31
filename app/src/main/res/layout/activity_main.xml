@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parent linear layout with vertical orientation -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Restore" />
+    
+    <Button
+        android:id="@+id/flushBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Flush" />
+    
+    <Button
+        android:id="@+id/hotspotBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Hotspot" />
+
+</LinearLayout>

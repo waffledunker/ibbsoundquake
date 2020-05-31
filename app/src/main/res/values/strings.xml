@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Soundquake - IBB Hotspot Mesh Chatserver</string>
+    <string name="title_activity_chat">Haberleşme</string>
+    
+    
+    <string name="intent_action_turnon">soundquake.ibbmeshchat.TURN_ON</string>
+    <string name="intent_action_turnoff">soundquake.ibbmeshchat.TURN_OFF</string>
+    
+    <string name="intent_data_scheme">wifihotspot</string>
+    <string name="intent_data_host_turnon">turnon</string>
+    <string name="intent_data_host_turnoff">turnoff</string>
+    <string name="on_uri"><a href="wifihotspot://turnon">wifihotspot://turnon</a></string>
+    <string name="off_uri"><a href="wifihotspot://turnoff">wifihotspot://turnoff</a></string>
+    
+    <string name="needpermissions">soundquake.ibbmeshchat.NEED_PERMISSION</string>
+
+
+</resources>
